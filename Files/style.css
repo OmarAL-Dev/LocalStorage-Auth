@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #dddddd;
+    background: linear-gradient(135deg, #ebeba0 0%, #e8a6a6 100%);
 }
 
 
@@ -35,7 +35,9 @@ body {
 #background {
     width: 45%;
     border-radius: 15px;
-    box-shadow: 0 0 5px 1px #000000ad; 
+    box-shadow: 0 0 5px 1px #000000ad;
+    object-fit: cover;
+
 }
 
 
@@ -53,7 +55,7 @@ h2 {
     text-align: center  ;
 }
 
-/*hr*/
+/*hr1*/
 #mainDivider {
     width: 150px;
     height: 3px;
@@ -151,7 +153,7 @@ h2 {
 } 
 
 
-/*hr*/
+/*hr2*/
 .text-divider {
     width: 200px;
     height: 1px;
@@ -200,4 +202,215 @@ h2 {
 #question-login {
     margin-top: 30px;
     font-size: 18px;
+}
+
+a {
+    color: #2047d4;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+a:active {
+    color: #2047d4;
+}
+
+/*Make the site responsive*/
+@media screen and (max-width: 950px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    #buttonCreate {
+        font-size: 18px;
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #text {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        width: 20px;
+    }
+    .buttonsRegister {
+        font-size: 15px;
+    }
+
+    #question-login {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    #buttonCreate {
+        font-size: 17px;
+        padding: 6px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #text {
+        font-size: 10px;
+    }
+
+    .social-icon {
+        width: 17px;
+    }
+    .buttonsRegister {
+        font-size: 13px;
+    }
+
+    #question-login {
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    .input {
+        margin-bottom: 15px;
+        width: 80%;
+        padding: 10px 13px; 
+        font-size: 13px; 
+    }
+
+    #containerInputPassword{
+        width: 80%;
+    }
+
+    #buttonCreate {
+        font-size: 15px;
+        padding: 5px;
+        padding-left: 13px;
+        padding-right: 14px;
+    }
+
+
+    #text {
+        font-size: 8px;
+    }
+
+    .social-icon {
+        width: 15px;
+    }
+    .buttonsRegister {
+        font-size: 11px;
+    }
+
+    #question-login {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #background {
+        width: 80%;
+        height: 35%;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 0%;
+        box-shadow: none;
+    }
+
+    #containerAuth {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #buttonCreate {
+        font-size: 18px;
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    #text {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        width: 20px;
+    }
+    .buttonsRegister {
+        font-size: 15px;
+    }
+
+    #question-login {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-height: 835px) and (max-width: 500px) {
+    #background {
+        display: none;
+    }
+}
+
+
+@media screen and (max-height: 740px) {
+    #container {
+        height: 100%;
+        border-radius: 0%;  
+    }
+}
+
+@media screen and (max-height: 615px) {
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    #buttonCreate {
+        font-size: 12px;
+        padding: 5px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+
+    #text {
+        font-size: 9px;
+    }
+
+    .social-icon {
+        width: 15px;
+    }
+    .buttonsRegister {
+        font-size: 13px;
+    }
+
+    #question-login {
+        font-size: 13px;
+    }
 }

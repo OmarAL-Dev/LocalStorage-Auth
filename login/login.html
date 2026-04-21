@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Files/style.css">
+    <link rel="stylesheet" href="login.css">
+    <title>LocalStorage-login</title>
+</head>
+<body>
+
+    <!--Total container-->
+    <div id="container">
+        <img id="background" src="../Files/wallpaperlogin.jpg">
+
+        <!--Auth container-->
+        <div id="containerAuth">
+            <h2>Access your account</h2>
+
+            <hr id="mainDivider">
+
+            <!--Access your account-->
+            <input placeholder="Email" type="email" class="input">
+            <div id="containerInputPassword">
+                <input id="inputPassword" placeholder="Password" type="password" class="input">
+                <img class="eye" id="openEye" src="../Files/view.png">
+                <img class="eye" id="closeEye" src="../Files/close-eye.png">
+            </div>
+
+            <button id="buttonCreate">Log in</button>
+
+            <!--Or Register with-->
+            <div id="register">
+                <hr class="text-divider">
+                <p id="text">Or Register with</p>
+                <hr class="text-divider">
+            </div>
+
+            <div class="containerButtonsRegister">
+                <button class="buttonsRegister"><img class="social-icon" src="../Files/google-symbol.png">Google</button>
+                <button class="buttonsRegister"><img class="social-icon" src="../Files/github.png">GitHub</button>
+            </div>
+
+            <p id="P-forget"><a id="forget-password" href="">Forget your password?</a></p>
+            <p id="question-login">Don't have an account? <a href="../main.html">Create an account</a></p>
+        </div>
+
+    </div>
+<script src="login.js"></script>
+</body>
+</html>

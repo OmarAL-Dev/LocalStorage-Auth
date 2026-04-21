@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #a0ebe4 0%, #a6a9e8 100%);
+}
+
+#register {
+    margin-top: 30px;
+}
+
+#forget-password {
+    font-size: 18px;
+}
+
+#P-forget {
+    margin-top: 30px;
+}
+
+#question-login {
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    
+    #forget-password {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #forget-password {
+        font-size: 13px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    #forget-password {
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    #forget-password {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-height: 615px) {
+    
+    #forget-password {
+        font-size: 13px;
+    }
+}
