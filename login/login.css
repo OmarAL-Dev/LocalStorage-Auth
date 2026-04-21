@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #a0ebe4 0%, #a6a9e8 100%);
+    background: linear-gradient(180deg, #2f2a27 70%, #a6a48d 0%);
 }
 
 #register {
@@ -16,6 +16,11 @@ body {
 
 #question-login {
     margin-top: 20px;
+}
+
+#buttonCreate {
+    background-color: #2e2926;
+    color: white;
 }
 
 

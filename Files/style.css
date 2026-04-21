@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ebeba0 0%, #e8a6a6 100%);
+    background: linear-gradient(180deg, #ca9129 0%, #b63934 100%);
 }
 
 
@@ -22,7 +22,7 @@ body {
     width: 1400px;             
     max-width: 90%;  
     height: 700px;
-    background-color: white;
+    background-color: rgb(215, 214, 214);
     display: flex;      
     overflow: hidden; 
     border-radius: 15px; 
@@ -75,18 +75,18 @@ h2 {
     padding: 12px 16px; 
     font-size: 16px; 
     border-radius: 8px;
-    background-color: #cdcdce;
-    color: #1F2937;
+    background-color: #a9a9a9;
+    color: #000000;
     transition: all 0.3s ease; 
 }
 
 .input::placeholder {
-    color: #848586;
+    color: #474747;
 }
 
 .input:focus {
-    background-color: #e2e1e1; 
-    box-shadow: 0 0 0 2px #00000097; 
+    background-color: #ebebeb; 
+    box-shadow: 0 0 0 2px #00000097;
 }
 
 
@@ -103,7 +103,7 @@ h2 {
 }
 
 .eye {
-    background-color: #cdcdce;
+    background-color: #a9a9a9;
     margin-left: 10px;
     border-radius: 8px;
     width: 30px;
@@ -128,9 +128,9 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: #32130d;
     border: none;
-    color: white;
+    color: #d3d3d3;
     cursor: pointer;
     box-shadow: 0 0 3px 2px black;
     transition: 0.3s; 
@@ -184,12 +184,14 @@ h2 {
     font-size: 20px;
     border: none;
     box-shadow: 0 0 3px 1px black;
-    background-color: #cdcdce;
+    background-color: #a9a9a9;
+    color: black;
     transition: 30ms;
 }
 
 .buttonsRegister:active {
     box-shadow: 0 0 3px 0.5px black;
+    background-color: rgb(155, 155, 155);
 }
 
 .social-icon {
@@ -205,7 +207,7 @@ h2 {
 }
 
 a {
-    color: #2047d4;
+    color: #1a3baf;
     text-decoration: none;
     
 }
@@ -214,9 +216,6 @@ a:hover {
     border-bottom: 1px solid black;
 }
 
-a:active {
-    color: #2047d4;
-}
 
 /*Make the site responsive*/
 @media screen and (max-width: 950px) {
