@@ -10,7 +10,7 @@
 
     <!--Total container-->
     <div id="container">
-        <img id="background" src="Files/wallpaper.jpg">
+        <img alt="background" id="background" src="Files/wallpaper.jpg" >
 
         <!--Auth container-->
         <div id="containerAuth">
@@ -19,11 +19,12 @@
             <hr id="mainDivider">
 
             <!--Create an account-->
-            <input placeholder="Name" type="text" class="input">
-            <input placeholder="Email" type="email" class="input">
+            <input maxlength="20" id="nameInput" placeholder="Name" type="text" class="input">
+            <input id="emailInput" placeholder="Email" type="text" class="input">
             <div id="containerInputPassword">
                 <input id="inputPassword" placeholder="Password" type="password" class="input">
-                <img class="eye" id="openEye" src="Files/view.png">
+
+                <img class="hide eye" id="openEye" src="Files/view.png">
                 <img class="eye" id="closeEye" src="Files/close-eye.png">
             </div>
 
